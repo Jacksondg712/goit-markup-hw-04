@@ -578,6 +578,26 @@ margin-bottom: 20px;
     margin-left: 70px;
     width: 206px;
 }
+
+.footer__list__Redes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 206px;
+
+  }
+
+.footer__item__redes{
+    flex-basis: calc((100% - 30px)/4);
+    /* margin-left: auto;
+    margin-right: auto; */
+}
 /* **************************************************************************  */
 
 .port{
