@@ -203,7 +203,7 @@ button:focus{
     margin-left: auto;
     margin-right: auto;
     padding: auto;  
-    background-image: url("../images/ESTUDIO/Fondo__sol.png");
+    background-image: url("../images/ESTUDIO/Fondo__sol.jpg");
     
 
 }
@@ -341,7 +341,7 @@ button:focus{
 .dedication__card__imagen{
     width: 370px;
     height: 294px;
-    background-image: url(../images/ESTUDIO/imagen.png);
+    background-image: url(../images/ESTUDIO/AppEscritorio.jpg);
     background-position: center;
     display: flex;
     align-items: flex-end;
@@ -350,7 +350,7 @@ button:focus{
 .dedication__card__imagen1{
     width: 370px;
     height: 294px;
-    background-image: url(../images/ESTUDIO/imagen1.png);
+    background-image: url(../images/ESTUDIO/AppMovil.jpg);
     background-position: center;
     display: flex;
     align-items: flex-end;
@@ -359,7 +359,7 @@ button:focus{
 .dedication__card__imagen2{
     width: 370px;
     height: 294px;
-    background-image: url(../images/ESTUDIO/imagen2.png);
+    background-image: url(../images/ESTUDIO/SolucionDise.jpg);
     background-position: center;
     display: flex;
     align-items: flex-end;
@@ -476,6 +476,21 @@ button:focus{
     margin-right: auto;
 }
 
+.instagram:hover{
+    fill: #2196F3;
+}
+
+.facebook:hover{
+    fill: #2196F3;
+}
+
+.twitter:hover{
+    fill: #2196F3;
+}
+
+.linked:hover{
+    fill: #2196F3;
+}
 
 /* **************************************************************************** */
 
