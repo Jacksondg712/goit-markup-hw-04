@@ -118,6 +118,25 @@ button:focus{
     margin-right: auto;
 }
 
+.link_hover:hover .icon{
+    fill: #2196F3;
+    border-color: #2196F3;
+}
+
+.link_icon:hover .icon_path{
+    
+    fill: #2196F3;
+    
+}
+
+.ick{
+    fill: #EEEEEE;
+}
+.boder:hover{
+    border-color: #2196F3;
+}
+
+
 /* **************************************************************************  */
 
 .header{
