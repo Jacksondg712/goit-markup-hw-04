@@ -118,25 +118,36 @@ button:focus{
     margin-right: auto;
 }
 
-.link_hover:hover .icon{
+.link__hover:hover .icon{
     fill: #2196F3;
-    border-color: #2196F3;
-}
-
-.link_icon:hover .icon_path{
     
-    fill: #2196F3;
     
 }
 
-.ick{
+.link__icon:hover .icon__path{
+    
+    fill: #EEEEEE;
+    
+}
+
+.ick:hover{
     fill: #EEEEEE;
 }
+
+
+
 .boder:hover{
-    border-color: #2196F3;
+    
+    border: 1px solid #2196F3;
+    
 }
 
+.boder{
+    border-radius: 6px;
+    border:1px solid #AFB1B8 ;
+}
 
+/* #AFB1B8 */
 /* **************************************************************************  */
 
 .header{
@@ -170,11 +181,21 @@ button:focus{
 }
 
 .header__info{
+    display: flex;
+    align-items: center;
+}
+.header__text{
     font-weight: 500;
     font-size: 14px; 
     list-style: none;
     line-height: 1.14;
     color: #757575;
+    margin-left:5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header__text:hover{
+    color: #2196F3;
 }
 
 .header__one{
@@ -211,6 +232,11 @@ button:focus{
 .header__direction{
     display: flex;
     flex-direction: row;
+}
+
+.header__redes{
+    margin-top: 3px;
+    margin-right: px;
 }
 
 /* **************************************************************************  */
@@ -495,21 +521,7 @@ button:focus{
     margin-right: auto;
 }
 
-.instagram:hover{
-    fill: #2196F3;
-}
 
-.facebook:hover{
-    fill: #2196F3;
-}
-
-.twitter:hover{
-    fill: #2196F3;
-}
-
-.linked:hover{
-    fill: #2196F3;
-}
 
 /* **************************************************************************** */
 
